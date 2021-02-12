@@ -1,0 +1,360 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.woMP{
+    margin: -2px;
+    padding: 0px;
+}
+
+.body {
+    background-color: #ededed;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.a{
+    text-decoration: none;
+    color: black;
+}
+
+.input{
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    width: 90%;
+    padding: 2% 0% 2% 3%;
+    font-size: 90%;
+    border-radius: 2%;
+}.input::-webkit-input-placeholder{
+    color: rgb(190, 190, 190); 
+}
+
+.input2{
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #ededed;
+    width: 70%;
+    padding: 1% 0% 1% 2%;
+    font-size: 90%;
+    border-radius: 5px;
+}.input2::-webkit-input-placeholder{
+    color: #3483fa; 
+}
+
+.divImg img{
+    width: 90%;
+}
+
+.fontxSmall{
+    font-size: x-small;
+}.fontSmall{
+    font-size: small;
+}i.fontxSmall{
+    vertical-align: top;
+}
+
+.textRight{
+    text-align: right;
+}.textLeft{
+    text-align: left;
+}
+
+.borderLeft{
+    border-left: solid 1px #ededed;
+}
+
+.marginRight{
+    margin-right: 2%;
+}.marginBottom{
+    margin-bottom: 4%;
+}.marginLeft{
+    margin-left: 2%;
+}.marginTop{
+    margin-top: 4%;
+}
+
+span{
+    color: #424242;
+    font-size: small;
+}.span{
+    color: #424242;
+    font-size: xx-small;
+}
+
+.card{
+    padding: 4%;
+}
+
+.Userspan{
+    color:black;
+    font-size: small;
+    font-weight: 600;
+    margin: 0px 10px;
+}.userSim{
+    font-size: medium;
+    margin: 0px 5px;
+}
+
+.responsiveIco{
+    font-size: larger;
+    margin: 0% 5%;
+}
+
+.navbar a:hover{
+    font-weight: bold;
+}
+
+.hoverAzul:hover{
+    color:#3483fa;
+}
+
+#ruta{
+    background-color: #ededed;
+    margin-top: 5%;
+    padding: 1%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#producto{
+    background-color: white;
+    padding: 1%;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#divLogo{
+    padding-right: 5%;
+}#divLogo img{
+    width: 100%;
+}
+
+#barraBusqueda{
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.geo{
+    font-size: 130%;
+}
+
+/* BANNER */
+
+.textRuta{
+    color:black;
+    font-size: small;
+    font-weight: 400;
+}
+
+a.ruta{
+     text-decoration: none;
+    color: #3483fa;
+    font-size: small;
+    font-weight: 600;
+}
+
+.miniaturaDiv{
+    width: 110%;
+    margin: 30% 0%;
+    padding: 2%;
+}.miniaturaDiv:hover{
+    border: 2px solid #6a90f7;
+}
+
+.minPrin img{
+    width: 100%;
+}
+
+.bi-heart{
+    font-size: 130%;
+}
+
+.text{
+    color: black;
+    font-size: 90%;
+}
+
+.precio{
+    font-size: 200%;
+}
+
+.money{
+    font-size: 2em;
+}
+
+.full{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 100%;
+}
+
+.fontVerde{
+    color: #00a650;
+}
+
+.subTitulo{
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.title{
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.btnCom{
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 5px;
+    font-size: 90%;
+    margin: 1% 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#comprar{
+    color: white;
+    background-color: #3483fa;
+}#agregar{
+    background-color: #e3edfb;
+    color: #3483fa;
+}
+
+.relImg{
+    width: 100%;
+}.relImg40{
+    width: 40%;
+}.relImg20{
+    width: 20%;
+}
+
+.card .precio{
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.card .span{
+    margin-top: 7%;
+    font-size: x-small;
+    font-weight: bold;
+}
+
+.envio{
+    color: #00a650;
+    font-size: x-small;
+    font-weight: bold;
+}
+
+.table {
+    font-size: 0.9em;
+}.table .cabeza{
+    width: 30%;
+    vertical-align: middle;
+}th label{
+    padding: 2%;
+}
+
+li{
+    list-style: none;
+}
+
+.botones{
+    margin-top: 2%;
+}
+
+.miniMarginTop{
+    margin-top: 1%;
+}
+
+.bntOpinion{
+    background-color: #e3edfb;
+    color: #3483fa;
+    padding: 1%;
+    border-radius: 5px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.btnMas{
+    background-color: rgba(0, 0, 0, 0);
+    color: #3483fa;
+    padding: 3% 3%;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+@media (min-width: 769px){
+    
+    #nav{
+        background-color: #fff159;
+        padding: 1% 0% 0% 0%;
+        /*height: 13%;*/
+    }
+
+    #banner{
+        background-image: url(../../Content/images/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+    }
+
+    .discografia{
+        width: 15%;
+        margin-top: 5%;
+        margin-left: -12px;
+    }
+
+    .contenedor{
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .tarjeta{
+        border: 1px solid #cfcfcf;
+        padding: 5%;
+        border-radius: 5px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    #nav{
+        background-color: #fff159;
+        padding: 2% 2% 0% 2%;
+        /*height: 13%;*/
+    }
+
+    #banner{
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+    }
+
+    .discografia{
+        width: 0%;
+        margin-top: 0%;
+    }
+
+    .contenedor{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .tarjeta{
+        border: none;
+        padding: 5%;
+        border-radius: 5px;
+    }
+
+}
